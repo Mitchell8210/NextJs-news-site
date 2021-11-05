@@ -1,0 +1,21 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+.author {
+  color: #666;
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 30px;
+  padding-bottom: 20px;
+}

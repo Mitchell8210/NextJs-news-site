@@ -1,0 +1,44 @@
+.card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 350px;
+  min-height: 300px;
+  border-radius: 5%;
+  margin: 15px;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 1px solid #00a0ff;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #004e97;
+}
+.category {
+  text-transform: capitalize;
+  color: #666;
+  font-size: 14px;
+}
+
+.description {
+  padding-top: 20px;
+  line-height: 1.4;
+  padding-bottom: 10px;
+}
+
+.visit {
+  color: #004e97;
+  text-decoration: underline;
+  transition: transform 0.3s;
+}
+.visit:hover {
+  transform: scale(1.1);
+  color: #00a0ff;
+}
