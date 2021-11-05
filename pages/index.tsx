@@ -12,6 +12,7 @@ const Home: NextPage = ({ sources }: any) => {
   const englishSources = sources.sources.filter(
     (source: Source) => source.language === "en"
   );
+
   return (
     <div className={styles.container}>
       <Head>
